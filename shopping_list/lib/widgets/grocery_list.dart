@@ -10,7 +10,7 @@ class GroceryList extends StatefulWidget {
   State<GroceryList> createState() => _GroceryListState();
 }
 
-class _GroceryListState extends State<GroceryLit> {
+class _GroceryListState extends State<GroceryList> {
   final List<GroceryItem> _groceryItems = [];
 
   void _addItem() async {
